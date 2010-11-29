@@ -14,11 +14,15 @@ Convert all applicable characters to HTML entities.
 ## Parameters:
 
 * "protect"
+    
     Default: Existing html entities will not be encoded.
+    
     Set to "yes" and everything will be converted.    
+    
     Not applicable when parameter "decode" is set to "yes".
 
 * "decode"
+    
     Set to "yes" to convert all HTML entities to their applicable characters.
 
 -----
